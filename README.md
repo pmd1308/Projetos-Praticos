@@ -1,2 +1,8 @@
-# Projetos-Pr-ticos-SQL
-Aqui escrevo projetos mais básicos, separados por pastas e normalmente são apenas um único arquivo. Esses projetos são fragmentos de conteúdo que aprendi ao longo do tempo e uso para reforçar meu conhecimento. Não sou de brigar e você pode dar um fork ou copiar se quiser, só peço que divulguem meu trabalho.
+# Projetos Praticos SQL
+Aqui é onde eu guardo meus projetos mais básicos, todos organizados em pastas. Normalmente, são só arquivos únicos. 
+
+Esses projetos são fragmentos que aprendi ao longo da vida. Uso eles pra reforçar o que aprendi. 
+
+Se você quiser dar um fork ou copiar, fique à vontade, só peço que divulgue meu trabalho! 🚀
+
+PS:Só pra avisar, jogo capoeira, então pensa bem antes de pegar algo e não divulgar 😉

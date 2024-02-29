@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  padding: 20px;
+}
+
+#search-task {
+  width: 100%;
+}
+
+#todo-list {
+  margin: 10px 0;
+  padding: 0;
+  list-style: none;
+}
+
+#todo-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+}
+
+#todo-list li.completed span {
+  text-decoration: line-through;
+}
+
+#todo-list li input[type="checkbox"]{
+  margin-right: 10px;
+}
+
+button {
+  margin: 0 5px;
+}

@@ -4,18 +4,18 @@ const container = document.querySelector('#container');
 const showContainerButton = document.querySelector('#showContainer');
 const hideContainerButton = document.querySelector('#hideContainer');
 
-// Array de cores
-const colorNames = ['red', 'green', 'blue', 'yellow', 'purple', 'orange', 'teal', 'pink'];
+// Função para gerar cores
+const colorNames = () => {
+  const r = Math.floor(Math.random() * 255);
+  const g = Math.floor(Math.random() * 255);
+  const b = Math.floor(Math.random() * 255);
+  return `rgb(${r}, ${g}, ${b})`;
+}
 
-// Fução para selecionar aleatoriamente cada cor
-const getRandomColorName = () => {
-  const randomIndex = Math.floor(Math.random() * colorNames.length);
-  return colorNames[randomIndex];
-};
 
 // Função que altera cor e texto e captura informações sobre o curso
 button_change.addEventListener('click', function (e) {
-  const newColor = getRandomColorName();
+  const newColor = colorNames();
   container.style.backgroundColor = newColor;
   e.stopPropagation(); // Previne propragação de evento
 });
